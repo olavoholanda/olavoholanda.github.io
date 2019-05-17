@@ -761,6 +761,10 @@ h3.w3-head-project {
     font-family: 'Poppins', sans-serif;
 }
 
+.title-w3ls h4 {
+    color: #fff;
+}
+
 /*-- education and experience --*/
 .w3-edu-top {
     background: #001733;
@@ -881,6 +885,10 @@ i.fa.fa-globe, i.fa.fa-map-marker {
     font-weight: 600;
 }
 
+.bar_label_max, .bar_label_min {
+    visibility: hidden;
+}
+
 .skills-bar .bar_label_max {
     position: absolute;
     right: 0;
@@ -900,7 +908,7 @@ i.fa.fa-globe, i.fa.fa-map-marker {
     float: left;
     left: 100%;
     padding: 4px 10px 7px 10px;
-    background-color: #fd0202;
+    background-color: #fff;
     -webkit-transform: translateX(-50%) translateY(-30px);
     -ms-transform: translateX(-50%) translateY(-30px);
     transform: translateX(-50%) translateY(-30px);
@@ -909,7 +917,8 @@ i.fa.fa-globe, i.fa.fa-map-marker {
 }
 
 .skills-bar .b_tooltip span {
-    color: white;
+    color: #022859;
+    font-weight: 700;
 }
 
 .skills-bar .b_tooltip--tri {
@@ -924,36 +933,36 @@ i.fa.fa-globe, i.fa.fa-map-marker {
     display: block;
     border-style: solid;
     border-width: 5px 5px 0 5px;
-    border-color: rgb(236, 25, 68) transparent transparent transparent;
+    border-color: #fff transparent transparent transparent;
 }
 
 .skills-bar .bar_group__bar:nth-of-type(1) {
-    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    background: linear-gradient(to right, #022859, #F23545);
 }
 
 .skills-bar .bar_group__bar:nth-of-type(2) {
-    background: #f4c4f3; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F23545; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #022859, #F23545); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #022859, #F23545); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .skills-bar .bar_group__bar:nth-of-type(3) {
-    background: #FF4E50; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F9D423, #FF4E50); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F23545; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #022859, #F23545); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #022859, #F23545); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .skills-bar .bar_group__bar:nth-of-type(4) {
-    background: #77A1D3; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F23545; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #022859, #F23545); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #022859, #F23545); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .skills-bar .bar_group__bar:nth-of-type(5) {
-    background: #e64a19;
+    background: #F23545;
 }
 
 .bar_group {
@@ -1916,6 +1925,10 @@ h4.modal-title {
         text-transform: uppercase;
         letter-spacing: 2px;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .title-w3ls h4 {
+        color: #fff;
     }
 
     .w3-edu-grid-header h3 {

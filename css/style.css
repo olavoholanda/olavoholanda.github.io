@@ -753,7 +753,7 @@ h3.w3-head-project {
 
 .title-w3ls h4, .w3ls-heading h3, .w3-gallery-head h3, .w3-about-head h3 {
     font-size: 3em;
-    color: #e64a19;
+    color: #022859;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
@@ -763,39 +763,35 @@ h3.w3-head-project {
 
 /*-- education and experience --*/
 .w3-edu-top {
-    background: #212121;
+    background: #001733;
 
 }
 
 .w3-edu-grid-left h3 {
     color: #fff;
-    font-size: 2em;
-    text-transform: capitalize;
+    font-size: 1.5em;
     margin-bottom: 25px;
     letter-spacing: 2px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .w3-edu-info2 span {
-    margin-left: 1.5em;
-    color: #212121;
+    margin-left: 1em;
+    color: #F23545;
     text-transform: capitalize;
-    background: #F09819;
-    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);
-    background: linear-gradient(to right, #EDDE5D, #F09819);
     padding: 0.3em;
-    text-transform: capitalize;
 }
 
 .w3-edu-info1 h4 {
     text-transform: capitalize;
-    color: #dcad3f;
+    font-size: 1em;
+    color: #F23545;
     letter-spacing: 2px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .w3-edu-grid-header h3 {
-    color: #e64a19;
+    color: #F23545;
     font-size: 3em;
     font-family: 'Poppins', sans-serif;
 
@@ -803,7 +799,7 @@ h3.w3-head-project {
 
 .w3-edu-info-right2 h3 {
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
@@ -812,32 +808,33 @@ h3.w3-head-project {
 
 .w3-edu-info-right1 h3 {
     color: #fff;
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-transform: capitalize;
 }
 
 .w3-edu-info-right2 h4 {
-    color: #dcad3f;
+    color: #F23545;
+    font-size: 1em;
     text-transform: capitalize;
     letter-spacing: 2px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .w3-edu-info2 p {
-    color: #8a8a8a;
+    color: #bfccd8;
     font-size: 1em;
     line-height: 1.8em;
     letter-spacing: 1px;
     margin: 1em 0;
 }
 
-i.fa.fa-users, i.fa.fa-code, i.fa.fa-laptop {
-    color: #efb636;
-    font-size: 1.5em;
+i.fa.fa-globe, i.fa.fa-map-marker {
+    color: #F23545;
+    font-size: 1em;
 }
 
 .w3-edu-info-right2 p {
-    color: #8a8a8a;
+    color: #bfccd8;
     font-size: 1em;
     line-height: 1.8em;
     letter-spacing: 1px;

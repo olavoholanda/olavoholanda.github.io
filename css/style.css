@@ -1331,7 +1331,7 @@ h4.modal-title {
 /*-- //contact form--*/
 /*-- footer --*/
 .w3l_footer {
-    background: #000;
+    background: #001733;
     padding: 4em 0 3em 0;
 }
 
@@ -1358,12 +1358,12 @@ h4.modal-title {
     height: 55px;
     border-radius: 50px;
     text-align: center;
-    background: #fba80c;
+    background: #fff;
     margin: 0 auto;
 }
 
 .w3ls_footer_grid_leftl i {
-    color: #fff;
+    color: #F23545;
     font-size: 1em;
     padding: 20px;
 }
@@ -1380,18 +1380,18 @@ h4.modal-title {
 }
 
 .w3ls_footer_grid_leftr p {
-    color: #999;
+    color: #F23545;
     line-height: 1.5em;
 }
 
 .w3ls_footer_grid_leftr a {
-    color: #999;
+    color: #F23545;
     text-decoration: none;
     font-size: 14px;
 }
 
 .w3ls_footer_grid_leftr a:hover {
-    color: #e64a19;
+    color: #F23545;
 }
 
 .w3l_footer_pos {
@@ -1405,7 +1405,7 @@ h4.modal-title {
 }
 
 .w3l_footer_pos p a {
-    color: #e64a19;
+    color: #F23545;
     text-decoration: underline;
 }
 
@@ -1413,17 +1413,17 @@ h4.modal-title {
     color: #fff;
 }
 
-.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl {
-    background: #fff;
-}
+/*.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl {*/
+    /*background: #fff;*/
+/*}*/
 
-.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl i {
-    color: #212121;
-}
+/*.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftl i {*/
+    /*color: #212121;*/
+/*}*/
 
-.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftr h4 {
-    color: #e64a19;
-}
+/*.w3ls_footer_grid_left:hover .w3ls_footer_grid_leftr h4 {*/
+    /*color: #e64a19;*/
+/*}*/
 
 .w3ls_footer_grid_left {
     float: left;

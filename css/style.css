@@ -761,7 +761,7 @@ h3.w3-head-project {
     font-family: 'Poppins', sans-serif;
 }
 
-.title-w3ls h4 {
+.title-w3ls h4, .w3ls-heading h3 {
     color: #fff;
 }
 
@@ -1248,7 +1248,7 @@ h4.modal-title {
 
 /*-- contact-form --*/
 .contact {
-    background: url(../images/c2.jpg) no-repeat 0px 0px;
+    background: url(../images/skillsbg.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 500px;
 
@@ -1276,11 +1276,11 @@ h4.modal-title {
     resize: none;
     width: 100%;
     background: none;
-    color: #999;
+    color: #fff;
     font-size: 1em;
     outline: none;
     padding: 1em .8em;
-    border: solid 1px #999;
+    border: solid 1px #fff;
     min-height: 12.5em;
     -webkit-appearance: none;
 }
@@ -1292,8 +1292,8 @@ h4.modal-title {
     margin-top: 12px;
     font-size: 1em;
     -webkit-appearance: none;
-    background: #e64a19;
-    border: 1px solid #e64a19;
+    background: #F23545;
+    border: 1px solid #F23545;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     transition: 0.5s all;
@@ -1303,29 +1303,29 @@ h4.modal-title {
 }
 
 .contact input[type="text"]:focus, .contact input[type="email"]:focus, .contact textarea:focus {
-    border-color: #e64a19;
+    border-color: #F23545;
 }
 
 .contact input[type="submit"]:hover {
     background: none;
-    color: #e64a19;
-    border-color: #e64a19;
+    color: #F23545;
+    border-color: #F23545;
 }
 
 ::-webkit-input-placeholder {
-    color: #999 !important;
+    color: #fff !important;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-    color: #999 !important;
+    color: #fff !important;
 }
 
 ::-moz-placeholder { /* Firefox 19+ */
-    color: #999 !important;
+    color: #fff !important;
 }
 
 :-ms-input-placeholder {
-    color: #999 !important;
+    color: #fff !important;
 }
 
 /*-- //contact form--*/

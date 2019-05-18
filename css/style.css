@@ -973,6 +973,10 @@ i.fa.fa-globe, i.fa.fa-map-marker {
 /*-- //about --*/
 /*-- gallery --*/
 
+.gallery {
+    background-color: #e3e3e3;
+}
+
 .item-desc {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -1101,18 +1105,13 @@ ul.simplefilter {
     text-align: left;
 }
 
-.jm-item-wrapper {
-    position: relative;
-    padding: 7px;
-    background: #FFFFFF;
-    border: 1px solid #eee;
-}
-
 .jm-item-image {
     position: relative;
-    overflow: hidden;
     width: 340px;
     height: 300px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 10px;
 }
 
 .jm-item-image img {
@@ -1122,7 +1121,7 @@ ul.simplefilter {
 
 .jm-item-title {
     text-align: center;
-    background: rgba(0, 175, 255, 0.9);
+    background: #022859;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
@@ -1155,7 +1154,7 @@ ul.simplefilter {
 }
 
 .jm-item-button a {
-    background: rgba(234, 135, 8, 0.9);
+    background: rgba(242, 53, 69, 0.9);
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 15px;
@@ -1219,7 +1218,8 @@ p.w3ls-p-text {
 }
 
 .ins-details h3 {
-    color: #337ab7;
+    color: #F23545;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -1241,6 +1241,7 @@ h4.modal-title {
 .w3ls-property-images img {
     padding: 20px;
     width: 100%;
+    background-color: #022859;
 }
 
 /*-- //model --*/

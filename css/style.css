@@ -700,6 +700,10 @@ li.agile-it-adress-left b {
     margin: 2em 0;
 }
 
+.w3-about-grid-right1 h3 {
+    margin: 0;
+}
+
 .w3-about-grid-left2 {
     margin: 2em 0;
 }
@@ -1832,6 +1836,10 @@ h4.modal-title {
         margin: 2em 0 0 0;
     }
 
+    .w3-about-grid-right1 h3 {
+        margin: 1em;
+    }
+
     .w3-about-grid-left2 {
         width: 100%;
     }
@@ -1868,6 +1876,10 @@ h4.modal-title {
     .col-md-6.w3-banner-grid-right {
         width: 100%;
         float: left;
+    }
+
+    .w3-about-grid-right1 h3 {
+        margin: 1em;
     }
 
     .w3-banner-img {
@@ -1996,6 +2008,10 @@ h4.modal-title {
         float: left;
     }
 
+    .w3-about-grid-right1 h3 {
+        margin: 1em;
+    }
+
     .w3-banner-img {
         margin: 0 auto;
     }
@@ -2070,6 +2086,10 @@ h4.modal-title {
         font-size: 1.6em;
     }
 
+    .w3-about-grid-right1 h3 {
+        margin: 1em;
+    }
+
     .w3-banner-top {
         min-height: 800px;
     }
@@ -2112,6 +2132,10 @@ h4.modal-title {
     .w3-about-grid-left2 h3 {
         letter-spacing: 1px;
         font-size: 1.5em;
+    }
+
+    .w3-about-grid-right1 h3 {
+        margin: 1em;
     }
 
     .w3l_footer_pos {
@@ -2161,6 +2185,10 @@ h4.modal-title {
 @media (max-width: 320px) {
     .w3-banner-grids {
         padding: 2em 0 0 0;
+    }
+
+    .w3-about-grid-right1 h3 {
+        margin: 1em;
     }
 
     .w3-about-grid-left2 h4 {

@@ -405,8 +405,9 @@ li.agile-it-adress-left b {
     -o-transform: translateY(-50%) scale(0);
     transform: translateY(-50%) scale(0);
     opacity: .6;
-    font: 14px/1 FontAwesome;
+    font-family: "Font Awesome 5 Free";
     font-size: 1.2em;
+    font-weight: 900;
 }
 
 .cd-stretchy-nav ul li:nth-of-type(2) a::after {

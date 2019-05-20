@@ -1136,10 +1136,10 @@ ul.simplefilter {
     height: 100%;
     top: 0;
     left: 0;
-    -webkit-transition: opacity 0.5s ease-in 0s;
-    -moz-transition: opacity 0.5s ease-in 0s;
-    -o-transition: opacity 0.5s ease-in 0s;
-    transition: opacity 0.5s ease-in 0s;
+    /*-webkit-transition: opacity 0.5s ease-in 0s;*/
+    /*-moz-transition: opacity 0.5s ease-in 0s;*/
+    /*-o-transition: opacity 0.5s ease-in 0s;*/
+    /*transition: opacity 0.5s ease-in 0s;*/
 }
 
 .jm-item-wrapper:hover .jm-item-overlay {
@@ -1160,10 +1160,10 @@ ul.simplefilter {
     font-size: 15px;
     letter-spacing: 2px;
     padding: 10px 15px;
-    -webkit-transition: all 0.2s ease-in 0s;
-    -moz-transition: all 0.2s ease-in 0s;
-    -o-transition: all 0.2s ease-in 0s;
-    transition: all 0.2s ease-in 0s;
+    /*-webkit-transition: all 0.2s ease-in 0s;*/
+    /*-moz-transition: all 0.2s ease-in 0s;*/
+    /*-o-transition: all 0.2s ease-in 0s;*/
+    /*transition: all 0.2s ease-in 0s;*/
     text-decoration: none !important;
     display: block;
 }
@@ -1194,10 +1194,10 @@ p.w3ls-p-text {
 /** first **/
 
 .first .jm-item-button {
-    -webkit-transition: all 0.5s ease-in 0.5s;
-    -moz-transition: all 0.5s ease-in 0.5s;
-    -o-transition: all 0.5s ease-in 0.5s;
-    transition: all 0.5s ease-in 0.5s;
+    /*-webkit-transition: all 0.5s ease-in 0.5s;*/
+    /*-moz-transition: all 0.5s ease-in 0.5s;*/
+    /*-o-transition: all 0.5s ease-in 0.5s;*/
+    /*transition: all 0.5s ease-in 0.5s;*/
     top: -100px;
 }
 
